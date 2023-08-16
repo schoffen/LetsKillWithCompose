@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.letskillwithcompose"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.letskillwithcompose"
@@ -52,6 +52,9 @@ android {
 dependencies {
     // Coil
     implementation("io.coil-kt:coil-compose:2.4.0")
+
+    // Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.0")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
